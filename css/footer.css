@@ -1,0 +1,18 @@
+:root {
+    --footer-height: 1.5em;
+    --footer-padding: 0.25em;
+}
+
+footer {
+    height: var(--footer-height);
+    width: 100%;
+    background-color: var(--color-main);
+
+    padding: var(--footer-padding);
+
+    bottom: 0;
+}
+
+footer > p {
+    width: fit-content;
+}

@@ -1,0 +1,14 @@
+#tfno {
+    text-decoration: none;
+    display: flex;
+
+    height: 100%;
+    align-items: center;
+}
+
+#tfno > img {
+    height: 40%;
+    position: relative;
+    top: 5%;
+    transform: rotate(15deg);
+}

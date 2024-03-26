@@ -1,0 +1,47 @@
+
+@media only screen and (max-width:481px) {  /* -- Mobile -- */
+
+    #banner-mensaje {
+        padding: 0.5vh 4vw 1vh 4vw;
+    }
+
+    #banner-mensaje h1 {
+        font-size: 6.5vw;
+    }
+
+    #banner-mensaje p {
+        font-size: 5vw;
+    }
+
+    #banner-mensaje #por-solo-big icon, #banner-mensaje #ubicaciones icon{ 
+        height: 5vw;
+    }
+
+    #banner-mensaje #por-solo {
+        display: none;
+    }
+    #banner-mensaje #por-solo-big {
+        display: flex;
+    }
+
+    #banner-mensaje * {
+        width: fit-content;
+        overflow: clip;
+    }
+
+    #banner-mensaje #ubicaciones{
+        font-size: 3.5vh;
+        margin-right: 0.5vw;
+    }
+
+    #banner-mensaje  #por-solo-big #precio {
+        font-size: 25vw;
+        margin-top: -10%;
+        margin-bottom: -10%;
+    }
+
+    #banner-mensaje #por-solo-big > #moneda{
+        font-size: 10vw;
+    }
+
+}

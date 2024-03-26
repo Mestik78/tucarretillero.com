@@ -1,0 +1,23 @@
+
+@media only screen and (max-width:481px) {  /* -- Mobile -- */
+
+    #banner-homologaciones p {
+        writing-mode: sideways-lr;
+        text-orientation: mixed;
+
+        font-size: 5.7vw;
+
+        margin-left: 1vw;
+    }
+
+
+    #banner-homologaciones #iconos {
+        padding-bottom: 1vh;
+    }
+
+    #banner-homologaciones #iconos *{
+        margin: 1vh 3vw 0vh 2.5vw;
+        width: 20vw;
+    }
+
+}
