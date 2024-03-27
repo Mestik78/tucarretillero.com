@@ -7,6 +7,10 @@
     font-family: "Akshar", sans-serif;
 }
 
+body {
+	font-size: 100%;
+}
+
 h1, h2 {
 	text-align: center;
 	text-transform: uppercase;
