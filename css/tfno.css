@@ -7,8 +7,9 @@
 }
 
 #tfno > img {
-    height: 40%;
+    height: 35%;
     position: relative;
     top: 5%;
-    transform: rotate(15deg);
+    margin: 4px;
+    transform: translateY(-10%);
 }
