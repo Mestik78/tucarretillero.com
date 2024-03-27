@@ -4,9 +4,6 @@
 
     --header-padding-horizontal: 2em;
     --header-padding-vertical: 0.5em;
-
-    --header-font-size-pc: 1vw;
-    --header-font-size-mobile: 4vw;
 }
 
 header {
@@ -42,7 +39,7 @@ header * {
     }
 
     header * {
-        font-size: var(--header-font-size-pc);
+        font-size: 1vw;
     }
 
     header>#logo {
@@ -63,7 +60,7 @@ header * {
     }
 
     header * {
-        font-size: var(--header-font-size-mobile);
+        font-size: 4vw;
     }
 
     header>#logo {
