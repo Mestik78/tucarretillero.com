@@ -1,12 +1,9 @@
 :root {
-    --header-height-pc: 3.5vh;
+    --header-height-pc: 4vh;
     --header-height-mobile: 2em;
 
     --header-padding-horizontal: 2em;
     --header-padding-vertical: 0.5em;
-
-    --header-font-size-pc: 1vw;
-    --header-font-size-mobile: 4vw;
 }
 
 header {
@@ -26,8 +23,6 @@ header {
     align-items: center;
     justify-content: space-between;
     text-align: center;
-
-    font-weight: bold;
 }
 
 header * {
@@ -42,11 +37,11 @@ header * {
     }
 
     header * {
-        font-size: var(--header-font-size-pc);
+        font-size: 1.2em;
     }
 
     header>#logo {
-        height: 60%;
+        height: clamp(50%, 1.7vw, 80%);
     }
 
     header>#tfno {
@@ -56,6 +51,13 @@ header * {
     }
 }
 
+@media only screen and (max-width:900px) {  /* -- Thin PC -- */
+    header>#menu {
+        display: none;
+    }
+}
+
+
 @media only screen and (max-width:481px) {  /* -- Mobile -- */
 
     header {
@@ -63,7 +65,7 @@ header * {
     }
 
     header * {
-        font-size: var(--header-font-size-mobile);
+        font-size: 1.2em;
     }
 
     header>#logo {
