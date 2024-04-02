@@ -16,6 +16,8 @@ const loadTemplates = async function() {
     do {
         await loadTemplateLevel()
     } while (templates.length > 0)
+
+    loadCursos()
 }
 
 loadTemplates()
