@@ -1,0 +1,28 @@
+@import url(./banner-homologaciones-pc.css);
+@import url(./banner-homologaciones-mobile.css);
+
+#banner-homologaciones {
+    box-shadow: var(--shadow);
+    background: var(--color-text);
+    border-radius: var(--border-radius);
+
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+#banner-homologaciones * {
+    color: var(--color-text-inverted);
+}
+
+#banner-homologaciones #iconos {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+#banner-homologaciones #iconos *{
+    display: flex;
+    flex-direction: column;
+    aspect-ratio: 1;
+}

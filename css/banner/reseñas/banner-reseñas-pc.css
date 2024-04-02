@@ -1,0 +1,12 @@
+
+@media (min-width:481px) {                  /* -- PC -- */
+
+    #banner-reseñas {
+        margin-top: 4vh;
+
+        height: 6vh;
+
+        padding: 1vh 0.65vw 1vh 1vw;
+    }
+
+}

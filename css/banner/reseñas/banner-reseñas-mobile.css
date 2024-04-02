@@ -1,0 +1,11 @@
+
+@media only screen and (max-width:481px) {  /* -- Mobile -- */
+
+    #banner-reseñas {
+
+        height: 4vh;
+
+        padding: 1vh 2vw 1vh 2.5vw;
+    }
+
+}
