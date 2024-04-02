@@ -1,5 +1,5 @@
 :root {
-    --header-height-pc: calc(1.5*var(--size-vertical));
+    --header-height-pc: var(--size-vertical);
     --header-height-mobile: var(--size-two-units);
 
     --header-padding-horizontal: var(--size-unit);
@@ -14,7 +14,7 @@ header {
 
     background-color: var(--color-main);
 
-    padding: var(--size-vertical);
+    padding: calc(0.5*var(--size-vertical));
 
     user-select: none;
 
