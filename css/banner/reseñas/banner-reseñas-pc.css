@@ -2,11 +2,11 @@
 @media (min-width:481px) {                  /* -- PC -- */
 
     #banner-reseñas {
-        margin-top: 4vh;
+        margin-top: var(--size-vertical);
 
-        height: 6vh;
+        height: calc(1.5*var(--size-vertical));
 
-        padding: 1vh 0.65vw 1vh 1vw;
+        padding: calc(0.5*var(--size-vertical));
     }
 
 }

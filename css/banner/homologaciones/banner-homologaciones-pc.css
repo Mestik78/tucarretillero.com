@@ -4,7 +4,7 @@
     #banner-homologaciones {
         position: absolute;
         right: 10vw;
-        top: 4vh;
+        top: var(--size-vertical);
 
         height: 80%;
 

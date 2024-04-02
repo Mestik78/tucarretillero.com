@@ -1,6 +1,5 @@
 :root {
-    --header-height-pc: var(--size-vertical);
-    --header-height-mobile: var(--size-two-units);
+    --header-height: var(--size-vertical);
 
     --header-padding-horizontal: var(--size-unit);
     --header-padding-vertical: var(--size-unit);
@@ -10,11 +9,11 @@ header {
     position: sticky;
     top: 0;
 
-    height: var(--header-height-pc);
+    height: var(--header-height);
 
     background-color: var(--color-main);
 
-    padding: calc(0.5*var(--size-vertical));
+    padding: calc(0.5*var(--size-vertical)) var(--size-horizontal);
 
     user-select: none;
 
@@ -26,22 +25,17 @@ header {
 
 header * {
     text-decoration: none;
+    transform: translateY(5%);
+    font-size: var(--header-height);
+    overflow: unset;
 }
 
 header>#logo {
-    height: 90%
+    height: 90%;
+    transform: translateY(-5%);
 }
 
 @media (min-width:481px) {                  /* -- PC -- */
-
-    header {
-        height: var(--header-height-pc);
-    }
-
-    header * {
-        font-size: var(--header-height-pc);
-        transform: translateY(5%);
-    }
 
 
     header>#tfno {
@@ -61,14 +55,6 @@ header>#logo {
 
 
 @media only screen and (max-width:481px) {  /* -- Mobile -- */
-
-    header {
-        height: var(--header-height-mobile);
-    }
-
-    header * {
-        font-size: 1.2em;
-    }
 
     header>#menu {
         display: none;
