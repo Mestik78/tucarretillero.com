@@ -1,21 +1,20 @@
 :root {
-    --header-height-pc: var(--size-two-units);
+    --header-height-pc: calc(1.5*var(--size-vertical));
     --header-height-mobile: var(--size-two-units);
 
-    --header-padding-horizontal: 2em;
-    --header-padding-vertical: 0.5em;
+    --header-padding-horizontal: var(--size-unit);
+    --header-padding-vertical: var(--size-unit);
 }
 
 header {
     position: sticky;
     top: 0;
 
+    height: var(--header-height-pc);
+
     background-color: var(--color-main);
 
-    padding-left: var(--header-padding-horizontal);
-    padding-right: var(--header-padding-horizontal);
-    padding-top: var(--header-padding-vertical);
-    padding-bottom: var(--header-padding-vertical);
+    padding: var(--size-vertical);
 
     user-select: none;
 
@@ -29,6 +28,9 @@ header * {
     text-decoration: none;
 }
 
+header>#logo {
+    height: 90%
+}
 
 @media (min-width:481px) {                  /* -- PC -- */
 
@@ -37,12 +39,10 @@ header * {
     }
 
     header * {
-        font-size: 1.2em;
+        font-size: var(--header-height-pc);
+        transform: translateY(5%);
     }
 
-    header>#logo {
-        height: clamp(50%, 1.7vw, 80%);
-    }
 
     header>#tfno {
         position: absolute;
@@ -68,10 +68,6 @@ header * {
 
     header * {
         font-size: 1.2em;
-    }
-
-    header>#logo {
-        height: 50%;
     }
 
     header>#menu {
