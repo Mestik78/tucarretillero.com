@@ -6,7 +6,7 @@
     }
 
     #banner-mensaje h1 {
-        font-size: calc(1.5*var(--size-vertical));
+        font-size: calc(1.1*var(--size-vertical));
     }
 
     #banner-mensaje p {

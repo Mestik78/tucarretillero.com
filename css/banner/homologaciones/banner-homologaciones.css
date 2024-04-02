@@ -9,20 +9,31 @@
     display: flex;
     align-items: center;
     width: fit-content;
+
+    padding: calc(0.5*var(--size-vertical)) var(--size-vertical);
 }
 
 #banner-homologaciones * {
     color: var(--color-text-inverted);
 }
 
+#banner-homologaciones p {
+    width: calc(1.5*var(--size-vertical));
+    font-size: calc(1.5*var(--size-vertical));
+}
+
 #banner-homologaciones #iconos {
     display: flex;
     flex-direction: column;
-    width: fit-content;
 }
 
 #banner-homologaciones #iconos *{
     display: flex;
     flex-direction: column;
     aspect-ratio: 1;
+}
+
+#banner-homologaciones #iconos *{
+    height: calc(4*var(--size-vertical));
+    padding: calc(0.5*var(--size-vertical)) 0;
 }

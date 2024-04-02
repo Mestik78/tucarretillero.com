@@ -27,7 +27,6 @@ header * {
     text-decoration: none;
     transform: translateY(5%);
     font-size: var(--header-height);
-    overflow: unset;
 }
 
 header>#logo {

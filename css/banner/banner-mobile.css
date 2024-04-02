@@ -7,7 +7,7 @@
     }
 
     #banner #contenido > * {
-        margin: var(--size-horizontal) var(--size-vertical) 0 var(--size-vertical);
+        margin: var(--size-horizontal) var(--size-vertical);
     }
 
 }

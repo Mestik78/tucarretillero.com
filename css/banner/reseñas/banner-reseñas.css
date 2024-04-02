@@ -1,6 +1,3 @@
-@import url(./banner-reseñas-pc.css);
-@import url(./banner-reseñas-mobile.css);
-
 #banner-reseñas {
     box-shadow: var(--shadow);
     background: var(--color-text);
@@ -9,6 +6,10 @@
     display: flex;
     align-items: center;
     width: fit-content;
+
+    margin-top: var(--size-vertical);
+    height: calc(1.5*var(--size-vertical));
+    padding: calc(0.5*var(--size-vertical));
 }
 
 #banner-reseñas #logo-google {

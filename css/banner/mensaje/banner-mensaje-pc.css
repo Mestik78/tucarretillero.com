@@ -5,17 +5,11 @@
     #banner-mensaje {
         margin-top: var(--size-vertical);
 
-        padding: 0.5vh 1.5vw 1vh 1.5vw;
-
         width: fit-content;
     }
 
     #banner-mensaje h1 {
         font-size: calc(1.5*var(--size-vertical));
-    }
-
-    #banner-mensaje p {
-        font-size: 3.5vh;
     }
 
     #banner-mensaje #por-solo icon, #banner-mensaje #ubicaciones icon{ 
@@ -34,12 +28,7 @@
     }
 
     #banner-mensaje #por-solo > #precio{
-        font-size: 10vh;
         margin-top: -2vh;
-    }
-
-    #banner-mensaje #por-solo > #moneda{
-        font-size: 4vh;
     }
 
 }

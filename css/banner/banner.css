@@ -9,7 +9,7 @@
     --banner-height-pc: 55vh;
     --banner-backgroud-size-pc: cover;
     
-    --banner-height-mobile: 80vh;
+    --banner-height-mobile: fit-content;
     --banner-backgroud-size-mobile: cover;
 }
 
