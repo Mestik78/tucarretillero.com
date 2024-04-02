@@ -1,6 +1,6 @@
 :root {
-    --header-height-pc: 4vh;
-    --header-height-mobile: 2em;
+    --header-height-pc: var(--size-two-units);
+    --header-height-mobile: var(--size-two-units);
 
     --header-padding-horizontal: 2em;
     --header-padding-vertical: 0.5em;
@@ -51,9 +51,11 @@ header * {
     }
 }
 
-@media only screen and (max-width:900px) {  /* -- Thin PC -- */
-    header>#menu {
-        display: none;
+@media only screen and (max-width:1200px) {  /* -- Thin PC -- */
+    header>#tfno {
+        position: inherit;
+        left: unset;
+        transform: unset;
     }
 }
 

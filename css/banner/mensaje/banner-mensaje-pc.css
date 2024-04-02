@@ -3,7 +3,7 @@
 
 
     #banner-mensaje {
-        margin-top: 4vh;
+        margin-top: var(--size-unit);
 
         padding: 0.5vh 1.5vw 1vh 1.5vw;
 

@@ -1,9 +1,14 @@
 :root {
+    /* Colores */
     --color-main: #418daf;
     --color-secondary: #ff9e55;
     --color-text: #ffffff;
     --color-text-inverted: #000000;
+    /* Tamaños */
+    --size-unit: clamp(5px, 2vh, 20px);
+    --size-two-units: calc(2 * var(--size-unit));
 
+    /* Efectos */
     --shadow: 0px 8px 14px rgba(0, 0, 0, 0.6);
     --border-radius: 10px;
 
