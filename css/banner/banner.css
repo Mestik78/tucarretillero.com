@@ -7,7 +7,7 @@
 
 :root {
     --banner-height-pc: 55vh;
-    --banner-backgroud-size-pc: 100vw;
+    --banner-backgroud-size-pc: cover;
     
     --banner-height-mobile: 80vh;
     --banner-backgroud-size-mobile: cover;

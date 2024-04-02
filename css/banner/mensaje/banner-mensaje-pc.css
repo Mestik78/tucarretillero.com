@@ -11,7 +11,7 @@
     }
 
     #banner-mensaje h1 {
-        font-size: 4vh;
+        font-size: calc(1.5*var(--size-vertical));
     }
 
     #banner-mensaje p {

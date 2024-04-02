@@ -6,7 +6,7 @@
     --color-text-inverted: #000000;
     /* Tamaños */
     --size-vertical: clamp(7px, 3vh, 30px);
-    --size-horizontal: clamp(20px, 2vw, 20px);
+    --size-horizontal: clamp(20px, 2vw, 40px);
 
     /* Efectos */
     --shadow: 0px 8px 14px rgba(0, 0, 0, 0.6);

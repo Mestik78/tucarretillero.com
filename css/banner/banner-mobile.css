@@ -7,7 +7,7 @@
     }
 
     #banner #contenido > * {
-        margin: 3vh 3vw 0 3vw;
+        margin: var(--size-horizontal) var(--size-vertical) 0 var(--size-vertical);
     }
 
 }

@@ -7,7 +7,6 @@
     }
 
     #banner #contenido {
-        padding-left: 10vw;
-        padding-right: 10vw;
+        padding: 0 calc(4*var(--size-horizontal));
     }
 }
