@@ -1,18 +1,22 @@
 [
     {
-        "nombre": "Pozuelo",
-        "foto": "/media/images/ubicaciones/pozuelo.jpeg"
+        "nombre": "COSLADA C SENDA GALIANA D9",
+        "foto": "/media/images/ubicaciones/COSLADA.png",
+        "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d777333.7322969937!2d-4.504105969165135!3d40.442957100000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42315230afd027%3A0x19f606f00419add3!2sTu%20Carretillero!5e0!3m2!1ses!2ses!4v1712160380008!5m2!1ses!2ses"
     },
     {
-        "nombre": "Murcia",
-        "foto": "/media/images/ubicaciones/murcia.jpg"
+        "nombre": "ALCORCÓN C FÁBRICAS 29",
+        "foto": "/media/images/ubicaciones/ALCORCÓN.png",
+        "link": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d194628.1339237561!2d-3.9701425478328694!3d40.34091310210108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1stu%20carretillero!5e0!3m2!1ses!2ses!4v1712160743224!5m2!1ses!2ses"
     },
     {
-        "nombre": "Murcia",
-        "foto": "/media/images/ubicaciones/murcia.jpg"
+        "nombre": "CIEMPOZUELOS C MORERAS PARCELA 1 NAVE 40",
+        "foto": "/media/images/ubicaciones/CIEMPOZUELOS.png",
+        "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.474406138792!2d-3.6389628234493676!3d40.17625457023958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4219649fa1a621%3A0x3c3e5bd59eb7894b!2sTu%20Carretillero!5e0!3m2!1ses!2ses!4v1712160848498!5m2!1ses!2ses"
     },
     {
-        "nombre": "Murcia",
-        "foto": "/media/images/ubicaciones/murcia.jpg"
+        "nombre": "ALCANTARILLA C VENEZUELA PARCELA 1 17 NAVE 9C",
+        "foto": "/media/images/ubicaciones/ALCANTARILLA.png",
+        "link": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.7869885094333!2d-1.214783823526401!3d37.95875940153957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6481f21b81994d%3A0x2898a48d7e77c41e!2sTUCARRETILLERO.COM!5e0!3m2!1ses!2ses!4v1712160910366!5m2!1ses!2ses"
     }
 ]

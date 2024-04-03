@@ -1,7 +1,7 @@
 .ubicacion {
     background-size: cover;
     background-position: center;
-    
+
     margin: calc(0.5*var(--size-vertical)) calc(0.5*var(--size-horizontal));
 
     aspect-ratio: 16/9;
@@ -23,6 +23,8 @@
     position: absolute;
     bottom: calc(0.5*var(--border-radius));
     right: var(--border-radius);
+    left: var(--border-radius);
 
     font-size: var(--size-vertical);
+    text-align: end;
 }

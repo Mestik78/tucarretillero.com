@@ -1,0 +1,12 @@
+.button {
+    transition-duration: 0.1s;
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: scale(105%);
+}
+
+.button:active {
+    transform: scale(102%);
+}

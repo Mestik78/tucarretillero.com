@@ -34,6 +34,7 @@
 }
 
 .paquete #price-tag {
+    background-image: url(/media/images/decorado-esquina-blanco.png);
     background-size: cover;
     background-position: center;
 
@@ -46,6 +47,8 @@
 }
 
 .paquete #price-tag > #price {
+    color: var(--color-secondary);
+
     width: 100%;
     height: 100%;
 

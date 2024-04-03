@@ -3,7 +3,7 @@
 @import url(cursos-pc.css);
 @import url(cursos-mobile.css);
 
-#cursos-holder {
+#Cursos {
     background-image: url(/media/images/patron.png);
     background-size: cover;
     display: flex;

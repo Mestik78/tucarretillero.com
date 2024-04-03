@@ -1,7 +1,7 @@
 
 @media (min-aspect-ratio: 3/4) {                  /* -- PC -- */
 
-    #cursos-holder {
+    #Cursos {
         height: calc(20*var(--size-vertical));
     }
 
