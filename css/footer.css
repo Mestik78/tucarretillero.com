@@ -5,7 +5,6 @@
 
 footer {
     height: var(--footer-height);
-    width: 100%;
     background-color: var(--color-main);
 
     padding: var(--footer-padding);
