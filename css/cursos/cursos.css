@@ -6,7 +6,6 @@
     background-image: url(/media/images/patron.png);
     background-size: cover;
     display: flex;
-    height: 500px;
 }
 
 #cursos {
@@ -14,10 +13,6 @@
 
     display: flex;
     flex-wrap: wrap-reverse;
-    flex-direction: column;
-
-    align-content: baseline;
-    justify-content: center;
 }
 
 #paquetes {

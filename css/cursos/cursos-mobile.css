@@ -5,4 +5,7 @@
         flex-direction: column;
     }
 
+    #cursos {
+        justify-content: center;
+    }
 }

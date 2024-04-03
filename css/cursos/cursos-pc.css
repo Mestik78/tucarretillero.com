@@ -1,8 +1,17 @@
 
 @media (min-aspect-ratio: 3/4) {                  /* -- PC -- */
 
+    #cursos-holder {
+        height: 500px;
+    }
+
     #cursos {
         width: 60%;
+
+        flex-direction: column;
+
+        align-content: baseline;
+        justify-content: center;
     }
 
     #paquetes {
