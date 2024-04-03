@@ -1,22 +1,12 @@
-@import url(curso-card.css);
 
-#cursos-holder {
-    background-image: url(/media/images/patron.png);
-    background-size: cover;
-    display: flex;
-    height: 500px;
-}
+@media (min-width:481px) or (min-aspect-ratio: 3/4) {                  /* -- PC -- */
 
-#cursos {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-}
+    #cursos {
+        width: 60%;
+    }
 
-#paquetes {
-    width: 50%;
-    background-color: var(--color-secondary);
-    mix-blend-mode: multiply;
+    #paquetes {
+        width: 40%;
+    }
+
 }

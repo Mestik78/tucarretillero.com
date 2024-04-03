@@ -1,5 +1,6 @@
 @import url(curso-card.css);
 @import url(cursos-pc.css);
+@import url(cursos-mobile.css);
 
 #cursos-holder {
     background-image: url(/media/images/patron.png);
@@ -9,15 +10,17 @@
 }
 
 #cursos {
-    width: 50%;
-    height: 100%;
+    padding: var(--size-vertical) var(--size-horizontal);
+
     display: flex;
-    flex-wrap: wrap;
-    align-content: center;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+
+    align-content: baseline;
+    justify-content: center;
 }
 
 #paquetes {
-    width: 50%;
     background-color: var(--color-secondary);
     mix-blend-mode: multiply;
 }
