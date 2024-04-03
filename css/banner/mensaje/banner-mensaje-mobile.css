@@ -1,5 +1,5 @@
 
-@media only screen and (max-width:481px) {  /* -- Mobile -- */
+@media only screen and (max-aspect-ratio: 3/4) {  /* -- Mobile -- */
 
     #banner-mensaje {
         padding: 0.5vh 4vw 1vh 4vw;

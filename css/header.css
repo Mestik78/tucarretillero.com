@@ -36,7 +36,7 @@ header>#logo {
     transform: translateY(-5%);
 }
 
-@media (min-width:481px) {                  /* -- PC -- */
+@media (min-aspect-ratio: 3/4) {                  /* -- PC -- */
 
 
     header>#tfno {
@@ -63,7 +63,7 @@ header>#logo {
 }
 
 
-@media only screen and (max-width:481px) {  /* -- Mobile -- */
+@media only screen and (max-aspect-ratio: 3/4) {  /* -- Mobile -- */
 
     header>#menu {
         display: none;

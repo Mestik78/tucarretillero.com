@@ -1,5 +1,5 @@
 
-@media (min-width:481px) {                  /* -- PC -- */
+@media (min-aspect-ratio: 3/4) {                  /* -- PC -- */
 
 
     #banner-mensaje {
