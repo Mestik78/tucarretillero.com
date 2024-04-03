@@ -1,5 +1,6 @@
 async function loadDataUbicacion(div, ubicacion) {
     div.querySelector("#name").innerHTML = ubicacion.nombre
+    div.style.backgroundImage = "url(" + ubicacion.foto + ")"
 }
 
 async function loadDataUbi(ubicaciones, ubicacionesDiv) {

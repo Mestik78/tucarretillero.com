@@ -1,5 +1,6 @@
 async function loadDataPaquete(div, paquete) {
     div.querySelector("#name").innerHTML = paquete.nombre
+    div.style.backgroundImage = "url(" + paquete.foto + ")"
 }
 
 async function loadDataPaq(paquetes, paquetesDiv) {

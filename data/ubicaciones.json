@@ -1,14 +1,18 @@
 [
     {
-        "nombre": "Pozuelo"
+        "nombre": "Pozuelo",
+        "foto": "/media/images/ubicaciones/pozuelo.jpeg"
     },
     {
-        "nombre": "Murcia"
+        "nombre": "Murcia",
+        "foto": "/media/images/ubicaciones/murcia.jpg"
     },
     {
-        "nombre": "Murcia"
+        "nombre": "Murcia",
+        "foto": "/media/images/ubicaciones/murcia.jpg"
     },
     {
-        "nombre": "Murcia"
+        "nombre": "Murcia",
+        "foto": "/media/images/ubicaciones/murcia.jpg"
     }
 ]

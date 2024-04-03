@@ -2,16 +2,16 @@
     {
         "nombre": "Paquete1",
         "precio": 30,
-        "foto": "curso.jpg"
+        "foto": "/media/images/paquetes/paquete1.png"
     },
     {
         "nombre": "Paquete2",
         "precio": 30,
-        "foto": "curso.jpg"
+        "foto": "/media/images/paquetes/paquete1.png"
     },
     {
         "nombre": "Paquete3",
         "precio": 30,
-        "foto": "curso.jpg"
+        "foto": "/media/images/paquetes/paquete1.png"
     }
 ]

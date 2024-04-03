@@ -1,5 +1,6 @@
 async function loadDataCurso(div, curso) {
     div.querySelector("#name").innerHTML = curso.nombre
+    div.style.backgroundImage = "url(" + curso.foto + ")"
 }
 
 async function loadDataCur(cursos, cursosDiv) {

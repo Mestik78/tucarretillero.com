@@ -1,6 +1,7 @@
 .ubicacion {
-    background-color: rgb(173, 236, 255);
-
+    background-size: cover;
+    background-position: center;
+    
     margin: calc(0.5*var(--size-vertical)) calc(0.5*var(--size-horizontal));
 
     aspect-ratio: 16/9;

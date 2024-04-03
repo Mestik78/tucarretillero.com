@@ -2,36 +2,36 @@
     {
         "nombre": "Curso1",
         "precio": 30,
-        "foto": "curso.jpg"
+        "foto": "/media/images/cursos/curso1.jpg"
     },
     {
         "nombre": "Curso2",
         "precio": 30,
-        "foto": "curso.jpg"
+        "foto": "/media/images/cursos/curso1.jpg"
     },
     {
         "nombre": "Curso3",
         "precio": 30,
-        "foto": "curso.jpg"
+        "foto": "/media/images/cursos/curso1.jpg"
     },
     {
         "nombre": "Curso4",
         "precio": 30,
-        "foto": "curso.jpg"
+        "foto": "/media/images/cursos/curso1.jpg"
     },
     {
         "nombre": "Curso4",
         "precio": 30,
-        "foto": "curso.jpg"
+        "foto": "/media/images/cursos/curso1.jpg"
     },
     {
         "nombre": "Curso4",
         "precio": 30,
-        "foto": "curso.jpg"
+        "foto": "/media/images/cursos/curso1.jpg"
     },
     {
         "nombre": "Curso4",
         "precio": 30,
-        "foto": "curso.jpg"
+        "foto": "/media/images/cursos/curso1.jpg"
     }
 ]
