@@ -2,11 +2,11 @@
 @media (min-aspect-ratio: 3/4) {                  /* -- PC -- */
 
     #cursos-holder {
-        height: 500px;
+        height: calc(20*var(--size-vertical));
     }
 
     #cursos {
-        width: 60%;
+        width: 55%;
 
         flex-direction: column;
 
@@ -15,7 +15,7 @@
     }
 
     #paquetes {
-        width: 40%;
+        width: 45%;
     }
-
+    
 }

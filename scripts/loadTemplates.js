@@ -18,6 +18,7 @@ const loadTemplates = async function() {
     } while (templates.length > 0)
 
     loadCursos()
+    loadPaquetes()
 }
 
 loadTemplates()

@@ -1,4 +1,5 @@
 @import url(curso-card.css);
+@import url(paquete-card.css);
 @import url(cursos-pc.css);
 @import url(cursos-mobile.css);
 
@@ -15,7 +16,27 @@
     flex-wrap: wrap-reverse;
 }
 
-#paquetes {
+
+#paquetes > #background {
     background-color: var(--color-secondary);
     mix-blend-mode: multiply;
+
+    width: 100%;
+    height: 100%;
+}
+#paquetes > #contenido {
+    padding: var(--size-vertical) var(--size-horizontal);
+
+    top: -100%;
+    position: relative;
+}
+
+#paquetes > #contenido > h1 {
+    color: var(--color-text);
+    isolation: isolate;
+}
+
+#paquetes-holder {
+    display: flex;
+    flex-wrap: wrap;
 }

@@ -5,7 +5,11 @@
         flex-direction: column;
     }
 
-    #cursos {
+    #cursos, #paquetes-holder{
         justify-content: center;
+    }
+
+    #paquetes {
+        background-color: #FF6A00a0;
     }
 }

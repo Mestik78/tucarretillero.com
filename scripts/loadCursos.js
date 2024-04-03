@@ -1,10 +1,8 @@
 async function loadDataCurso(div, curso) {
-    console.log(div)
     div.querySelector("#name").innerHTML = curso.nombre
 }
 
-async function loadData(cursos, cursosDiv) {
-    console.log(cursosDiv)
+async function loadDataCur(cursos, cursosDiv) {
     for (let curso of cursos) {
         
         await fetch("/templates/Cursos/Curso.htm")
@@ -24,5 +22,5 @@ function loadCursos() {
     
     fetch('/data/cursos/cursos.json')
         .then((response) => response.json())
-        .then((json) => loadData(json, cursosDiv))
+        .then((json) => loadDataCur(json, cursosDiv))
 }
