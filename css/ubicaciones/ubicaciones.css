@@ -1,0 +1,30 @@
+@import url(ubicacion-card.css);
+
+#Ubicaciones {
+    display: flex;
+    height: calc(20*var(--size-vertical));
+}
+
+#Ubicaciones #map {
+    width: 45%;
+    height: calc(100% + 2*var(--size-vertical) - 2px);
+    border: none;
+}
+
+#Ubicaciones #cards {
+    width: 55%;
+}
+
+#Ubicaciones #ubi-cards {
+    padding: var(--size-vertical) var(--size-horizontal);
+    
+    background-image: url(/media/images/patron.png);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+}
