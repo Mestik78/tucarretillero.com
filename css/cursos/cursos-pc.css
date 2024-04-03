@@ -6,7 +6,7 @@
     }
 
     #cursos {
-        width: 55%;
+        width: calc(55% - 2* var(--size-horizontal));
 
         flex-direction: column;
 

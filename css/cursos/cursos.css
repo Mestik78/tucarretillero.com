@@ -10,7 +10,7 @@
 }
 
 #cursos {
-    padding: var(--size-vertical) var(--size-horizontal);
+    margin: var(--size-vertical) var(--size-horizontal);
 
     display: flex;
     flex-wrap: wrap-reverse;
