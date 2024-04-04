@@ -1,0 +1,69 @@
+.trabajador-card {
+    aspect-ratio: 1.75;
+    width: calc(13*var(--size-horizontal));
+    padding: var(--size-vertical) var(--size-horizontal);
+    margin: var(--size-vertical) calc(1.5*var(--size-horizontal));
+    
+    background-color: var(--color-text);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+
+    display: flex;
+    transform: translateX(calc(-50% - calc(1.5*var(--size-horizontal)))) scale(95%);
+    transition-duration: 0.2s;
+}
+
+.trabajador-card.seleccionado {
+    transform: translateX(calc(-50% - calc(1.5*var(--size-horizontal))));
+}
+
+.trabajador-card * {
+    color: var(--color-main);
+}
+
+.trabajador-card > #imagen {
+    background-image: url(/media/images/trabajadores/Tomás.png);
+    background-size: cover;
+    background-position: top;
+    height: calc(100% + var(--size-vertical));
+    width: 45%;
+    margin-right: 5%;
+}
+
+.trabajador-card > #info {
+    width: 50%;
+}
+
+
+.trabajador-card > #info > h3 {
+    font-size: var(--size-vertical);
+    text-align: start;
+    margin-bottom: calc(0.25*var(--size-vertical));
+}
+.trabajador-card > #info > p {
+    font-size: calc(0.7*var(--size-vertical));
+}
+
+
+@media only screen and (max-aspect-ratio: 3/4) {  /* -- Mobile -- */
+
+    .trabajador-card {
+        aspect-ratio: 1.5;
+        width: calc(16*var(--size-horizontal));
+        padding: calc(0.5*var(--size-vertical)) calc(0.5*var(--size-horizontal));
+    }
+
+    .trabajador-card > #imagen {
+        width: 35%;
+        margin-right: 5%;
+        height: calc(100% + 0.5*var(--size-vertical));
+    }
+
+    .trabajador-card > #info {
+        width: 60%;
+    }
+
+    .trabajador-card > #info > h3 {
+        margin-bottom: 0;
+    }
+}

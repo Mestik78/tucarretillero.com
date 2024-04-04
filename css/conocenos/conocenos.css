@@ -1,0 +1,86 @@
+@import url(trabajador-card.css);
+
+#Conocenos {
+    background-color: var(--color-main);
+    position: relative;
+    overflow: hidden;
+}
+
+#Conocenos > h1 {
+    color: var(--color-text);
+}
+
+#Conocenos > #trabajadores {
+    display: flex;
+    justify-content: space-around;
+    width: fit-content;
+
+    position: relative;
+    transition-duration: 0.2s;
+    left: 50vw;
+}
+
+
+#Conocenos > #botones {
+    display: flex;
+    position: absolute;
+
+    width: calc((13 + 5)*var(--size-horizontal));
+    justify-content: space-between;
+
+    top: calc(50% - 0.75 * var(--size-vertical));
+    left: 50vw;
+    transform: translate(-50%, 50%);
+}
+
+#Conocenos > #botones > * {
+    aspect-ratio: 0.7;
+    width: var(--size-horizontal);
+
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Conocenos > #botones > #siguiente {
+    background-image: url(/media/icons/arr-right.svg);
+}
+
+#Conocenos > #botones > #anterior {
+    background-image: url(/media/icons/arr-left.svg);
+}
+
+#Conocenos > #progreso {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: var(--size-vertical);
+}
+
+#Conocenos > #progreso > * {
+    aspect-ratio: 1;
+    width: calc(0.5*var(--size-vertical));
+    margin: calc(0.1*var(--size-vertical));
+
+    background-color: var(--color-main);
+
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--color-text);
+
+    cursor: pointer;
+}
+
+#Conocenos > #progreso > *.seleccionado {
+    background-color: var(--color-text);
+}
+
+@media only screen and (max-aspect-ratio: 3/4) {  /* -- Mobile -- */
+
+    #Conocenos > #botones {
+        width: calc(7*var(--size-horizontal));
+        bottom: calc(1.4*var(--size-vertical));
+    }
+
+}
