@@ -2,16 +2,16 @@
     {
         "nombre": "Paquete1",
         "precio": 30,
-        "foto": "/media/images/paquetes/paquete1.png"
+        "foto": "/media/images/paquetes/paquete1.jpg"
     },
     {
         "nombre": "Paquete2",
         "precio": 30,
-        "foto": "/media/images/paquetes/paquete1.png"
+        "foto": "/media/images/paquetes/paquete1.jpg"
     },
     {
         "nombre": "Paquete3",
         "precio": 30,
-        "foto": "/media/images/paquetes/paquete1.png"
+        "foto": "/media/images/paquetes/paquete1.jpg"
     }
 ]

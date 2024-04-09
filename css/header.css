@@ -33,7 +33,13 @@ header * {
 
 header>#logo {
     height: 90%;
+    aspect-ratio: 11;
     transform: translateY(-5%);
+    background-image: url(/media/images/logotipo-tucarretilleroempresas-blanco.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 @media (min-aspect-ratio: 3/4) {                  /* -- PC -- */

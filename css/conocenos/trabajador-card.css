@@ -41,7 +41,7 @@
     margin-bottom: calc(0.25*var(--size-vertical));
 }
 .trabajador-card > #info > p {
-    font-size: calc(0.7*var(--size-vertical));
+    font-size: calc(0.65*var(--size-vertical));
 }
 
 

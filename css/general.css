@@ -28,4 +28,9 @@
 body {
     margin: 0;
     user-select: none;
+    background-color: var(--color-text);
+}
+
+body > div {
+    scroll-margin-top: calc(1.95*var(--header-height));
 }
