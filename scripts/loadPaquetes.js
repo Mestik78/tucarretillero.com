@@ -6,7 +6,7 @@ async function loadDataPaquete(div, paquete) {
 async function loadDataPaq(paquetes, paquetesDiv) {
     for (let paquete of paquetes) {
         
-        await fetch("/templates/Cursos/Paquete.htm")
+        await fetch("templates/Cursos/Paquete.htm")
             .then(response => response.text())
             .then(html => {
                 var div = document.createElement('div')

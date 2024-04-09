@@ -48,10 +48,10 @@
 }
 
 #banner-mensaje #por-solo icon, #banner-mensaje #por-solo-big icon{
-    background-image: url("/media/icons/price.png");
+    background-image: url("media/icons/price.png");
 }
 #banner-mensaje #ubicaciones icon{
-    background-image: url("/media/icons/location.svg");
+    background-image: url("media/icons/location.svg");
     transform:translateY(10%)
 }
 

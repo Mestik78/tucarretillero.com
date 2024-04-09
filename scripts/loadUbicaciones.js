@@ -6,7 +6,7 @@ async function loadDataUbicacion(div, ubicacion) {
 
 async function loadDataUbi(ubicaciones, ubicacionesDiv) {
     for (let ubicacion of ubicaciones) {
-        await fetch("/templates/Ubicaciones/Ubicacion.htm")
+        await fetch("templates/Ubicaciones/Ubicacion.htm")
             .then(response => response.text())
             .then(html => {
                 var div = document.createElement('div')

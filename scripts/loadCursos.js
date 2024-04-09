@@ -6,7 +6,7 @@ async function loadDataCurso(div, curso) {
 async function loadDataCur(cursos, cursosDiv) {
     for (let curso of cursos) {
         
-        await fetch("/templates/Cursos/Curso.htm")
+        await fetch("templates/Cursos/Curso.htm")
             .then(response => response.text())
             .then(html => {
                 var div = document.createElement('div')
