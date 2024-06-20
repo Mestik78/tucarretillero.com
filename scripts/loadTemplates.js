@@ -20,6 +20,7 @@ const loadTemplates = async function() {
     loadCursos()
     loadPaquetes()
     loadUbicaciones()
+    loadFAQ()
     startCarruselTrabajadores()
 }
 
