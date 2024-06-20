@@ -25,6 +25,10 @@ h2 {
 	color: var(--color-secondary);
 }
 
+p, a {
+    font-family: "Helvetica", sans-serif;
+}
+
 
 @media (min-aspect-ratio: 3/4) {                  /* -- PC -- */
 	h1 {

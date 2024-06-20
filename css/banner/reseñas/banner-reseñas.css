@@ -1,3 +1,6 @@
+@import url(./banner-reseñas-pc.css);
+@import url(./banner-reseñas-mobile.css);
+
 #banner-reseñas {
     box-shadow: var(--shadow);
     background: var(--color-text);
@@ -22,14 +25,16 @@
     display: flex;
     height: 100%;
     align-items: center;
+    width: fit-content;
 }
 
 #banner-reseñas #estrellas > * {
     aspect-ratio: 1;
-    height: 75%;
+    height: var(--size-vertical);
     background-image: url(/media/icons/star.svg);
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
 
     margin-right: 0.1vw;
 }

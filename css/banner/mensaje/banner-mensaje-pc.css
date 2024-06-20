@@ -1,34 +1,15 @@
 
 @media (min-aspect-ratio: 3/4) {                  /* -- PC -- */
-
-
     #banner-mensaje {
-        margin-top: var(--size-vertical);
-
-        width: fit-content;
+        height: 100%;
     }
 
     #banner-mensaje h1 {
-        font-size: calc(1.5*var(--size-vertical));
+        font-size: calc(1.75*var(--size-vertical));
     }
 
-    #banner-mensaje #por-solo icon, #banner-mensaje #ubicaciones icon{ 
-        height: 3.4vh;
-    }
-
-    #banner-mensaje #por-solo-big {
-        display: none;
-    }
     #banner-mensaje #por-solo {
         display: flex;
+        margin-bottom: var(--size-vertical);
     }
-
-    #banner-mensaje #por-solo > #texto, #banner-mensaje #ubicaciones{
-        margin-right: 0.5vw;
-    }
-
-    #banner-mensaje #por-solo > #precio{
-        margin-top: -2vh;
-    }
-
 }

@@ -6,7 +6,7 @@
 @import url(./homologaciones/banner-homologaciones.css);
 
 :root {
-    --banner-height-pc: 55vh;
+    --banner-height-pc: 65vh;
     --banner-backgroud-size-pc: cover;
     
     --banner-height-mobile: fit-content;
@@ -24,7 +24,7 @@
 #banner > #overlay {
     width: 100%;
     height: 100%;
-    background: var(--overlay-background);
+    background: var(--overlay-banner);
 }
 
 #banner > #contenido {

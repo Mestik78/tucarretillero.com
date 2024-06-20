@@ -7,6 +7,7 @@
     border-radius: var(--border-radius);
 
     display: flex;
+    flex-direction: column;
     align-items: center;
     width: fit-content;
 
@@ -18,22 +19,16 @@
 }
 
 #banner-homologaciones p {
-    width: calc(1.5*var(--size-vertical));
-    font-size: calc(1.5*var(--size-vertical));
+    font-size: var(--size-vertical);
 }
 
 #banner-homologaciones #iconos {
     display: flex;
-    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
 }
 
 #banner-homologaciones #iconos *{
-    display: flex;
-    flex-direction: column;
-    aspect-ratio: 1;
-}
-
-#banner-homologaciones #iconos *{
-    height: calc(4*var(--size-vertical));
+    height: calc(3*var(--size-vertical));
     padding: calc(0.5*var(--size-vertical)) 0;
 }

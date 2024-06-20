@@ -4,20 +4,9 @@
     #banner-homologaciones {
         position: absolute;
         right: calc(4*var(--size-horizontal));
-        top: var(--size-vertical);
         bottom: var(--size-vertical);
 
         flex-flow: row-reverse;
-    }
-
-    #banner-homologaciones p {
-        writing-mode: sideways-rl;
-        transform: translateX(20%);
-    }
-
-
-    #banner-homologaciones #iconos {
-        margin-right: calc(0.5*var(--size-vertical));
     }
 
 }
