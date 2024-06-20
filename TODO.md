@@ -22,3 +22,8 @@
 ### Más info
 - [ ] Cambiar visualmente
 - [ ] Añadir FAQs reales
+
+
+## Página de curso
+- [ ] Diseño de página
+- [ ] Página
