@@ -1,11 +1,11 @@
 #MasInfo {
-    background-image: url(/media/images/patron-azul.png);
+    background-color: var(--color-background-faded);
     background-position: center;
     background-size: cover;
 }
 
 #MasInfo > h1 {
-    color: var(--color-text);
+    color: var(--color-main);
 }
 
 #faq {

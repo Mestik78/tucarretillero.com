@@ -4,7 +4,11 @@
 @import url(cursos-mobile.css);
 
 #Cursos {
-    background-image: url(/media/images/patron.png);
+    background-color: var(--color-background);
+}
+
+#cursos-paquetes {
+    background-image: url(/media/images/patron.jpg);
     background-size: cover;
     display: flex;
 }
@@ -18,7 +22,7 @@
 
 
 #paquetes > #background {
-    background-color: var(--color-secondary);
+    background-color: var(--color-main);
     mix-blend-mode: multiply;
 
     width: 100%;

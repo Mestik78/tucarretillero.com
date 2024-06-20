@@ -1,13 +1,13 @@
 @import url(trabajador-card.css);
 
 #Conocenos {
-    background-color: var(--color-main);
+    background-color: var(--color-background-faded);
     position: relative;
     overflow: hidden;
 }
 
 #Conocenos > h1 {
-    color: var(--color-text);
+    color: var(--color-main);
 }
 
 #Conocenos > #trabajadores {
@@ -62,18 +62,18 @@
     width: calc(0.5*var(--size-vertical));
     margin: calc(0.1*var(--size-vertical));
 
-    background-color: var(--color-main);
+    background-color: none;
 
     border-radius: 50%;
     border-width: 1px;
     border-style: solid;
-    border-color: var(--color-text);
+    border-color: var(--color-main);
 
     cursor: pointer;
 }
 
 #Conocenos > #progreso > *.seleccionado {
-    background-color: var(--color-text);
+    background-color: var(--color-main);
 }
 
 @media only screen and (max-aspect-ratio: 3/4) {  /* -- Mobile -- */

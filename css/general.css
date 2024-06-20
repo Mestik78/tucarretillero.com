@@ -2,6 +2,8 @@
     /* Colores */
     --color-main: #418daf;
     --color-secondary: #ff9e55;
+    --color-background: #ffffff;
+    --color-background-faded: #EBEBEB;
     --color-text: #ffffff;
     --color-text-inverted: #000000;
     /* Tamaños */
@@ -13,7 +15,7 @@
     
     --overlay-background: linear-gradient(180deg, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.1) 60%, rgba(0, 0, 0, 0.75) 100%);
 
-    --border-radius: calc(0.5*var(--size-horizontal));
+    --border-radius: calc(0.25*var(--size-horizontal));
 
     scroll-behavior: smooth;
 }
